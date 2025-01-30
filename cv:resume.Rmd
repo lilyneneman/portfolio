@@ -1,0 +1,78 @@
+---
+name: Lily
+surname: Neneman
+position: Data Science Student
+pronouns: she/her
+University: University of Nebraska-Lincoln
+phone: 402-505-2042
+email: lilyneneman12@gmail.com
+linkedin: lilyneneman
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Skills
+
+ * Programming Languages - R, Python
+ 
+ * Data Analysis Tools - Excel, Tableau, Google Looker
+ 
+ * Other Skills - Problem-solving, Communication, Teamwork
+ 
+# Certifications
+  * IMB Data Analyst Specialization
+  
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "Data Science", "2022- Present", "University of Nebraska-Lincoln", "Lincoln, Nebraska")%>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Work Experience
+
+```{r}
+tribble(
+  ~Year, ~Company, ~Position, ~Desc,
+  "2024 - present", "HOTWORX", "Trainer Sales Associate", "Sales Experience", 
+  "2022", "UNL Children's Center", "Student Staff", "Interpersonal Skills",
+  "2021", "Scooter's Coffee", "Barista", "Customer Service",
+) %>%
+  brief_entries(
+    glue::glue("{Position} at {Company}"),
+    Year,
+    Desc
+  ) 
+```
+
+# Volunteer
+
+```{r}
+tribble(
+  ~Year, ~Organization, ~Position, 
+  "2022", "Belmont Community Center", "Volunteer Staff"
+) %>%
+  brief_entries(
+    glue::glue("{Position} at {Organization}"), Year
+  )
+```
+
+# References
+References Available upon request
+
+```{r}
+
+```
+
+
+
