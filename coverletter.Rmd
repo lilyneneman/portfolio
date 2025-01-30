@@ -1,0 +1,17 @@
+# Lily Neneman  
+909 Q St  
+Lincoln, NE, 68508  
+Email: lilyneneman12@gmail.com  
+Phone: (402) 505-2042  
+Date: `r format(Sys.Date(), '%B %d, %Y')`
+
+Dear Omaha National Group,
+
+I am writing to apply and express my interest for the Data Analyst role at Omaha National Group. My skills in Data Science would make me an asset to your team. My technical skills, communication, and values would make me a great fit for your team.
+
+The skills I have developed in Python and Microsoft Excel would give me the tools I need to help me succeed in this position. My expereince working with data would help me contribute to your team. I am eager to use these technical skills and continue to grow and learn. I enjoy collaboration, teamwork, and communicating with others to solve the problem at hand. I believe my values align with the culture at Omaha National Group because of my openness, work ethic, and collaborative nature.   
+
+I believe I would be a great choice for this role and would succeed in the environment at Omaha National Group. Thank you for your time and consideration. I appreciate this opportunity. 
+
+Sincerely,  
+Lily Neneman
